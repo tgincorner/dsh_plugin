@@ -1,0 +1,6 @@
+# dsh-session-manager bundle: one host service row.
+# The client half is discovered automatically from the package's
+# `dsh.client` declaration (served at /plugins/dsh-session-manager/client.js).
+- insert:
+    - id: session-manager
+      name: 'dsh-session-manager'
